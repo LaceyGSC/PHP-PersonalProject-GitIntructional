@@ -1,0 +1,139 @@
+/* 
+    Created on : Jan 21, 2015, 12:21:37 PM
+    Author     : Lacey Taylor
+*/
+
+html
+{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    height:100%;
+    width: 100%;
+    margin:0px;
+    font-size: 20px;
+    overflow: hidden;
+    background-color: #000000;
+    color: white;
+    float:left;
+    text-align: left;
+}
+
+header
+{
+    display:block;
+    text-align: center;
+    padding: 5px;
+    height: 10%;
+}
+
+#nameImage
+{
+    height:100%;
+}
+
+table,tr,td
+{
+    color: #000000;
+}
+
+
+nav
+{
+    float:left;
+    height: 80%;
+    width: 15%;  
+    text-align: center;
+    padding: 0px;
+    margin:0px;
+}
+
+button
+{
+    border-radius: 0px;
+    font-family: Georgia;
+    height:10%;
+    width:100%;
+    color:white;
+    font-size: 25px;
+    background:#333333;
+    border:none;
+    text-decoration: none;
+}
+
+button:hover
+{
+    background: #cccccc;
+    color:#000066;
+    text-decoration: none;
+}
+
+
+
+#aboutme
+{
+    float:left;
+    text-align: left;
+    font-size: 20px;
+    height:85%;
+    width:85%;
+    margin:0px;
+    background-color:#cccccc;
+    overflow-y:scroll;
+
+}
+
+#centerContent
+{
+    float:left;
+    text-align: left;
+    height:85%;
+    width:85%;
+    margin:0px;
+    color:#000000;
+    background-color:#cccccc;
+
+}
+
+#personalPic
+{
+
+    height:390px;
+    width:480px;
+    border:#cc0000 solid thin; 
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+#aboutMeText
+{
+    color:#000000;
+}
+
+h1,h2,h3
+{
+    color: #000066;
+    text-align: left;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	text-decoration: underline;
+}
+
+h7
+{
+    color: #ffffff;
+    text-align: left;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+footer
+{
+    clear:both;
+    display:block;
+    text-align: left;
+    height: 5%;
+    color: #000000;
+}
